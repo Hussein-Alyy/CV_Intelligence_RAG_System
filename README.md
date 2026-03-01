@@ -56,7 +56,7 @@ The system intelligently routes each question to the right answering strategy �
              │
              ▼
 ┌─────────────────────────┐
-│      Sanitize Input    │ ──► Blocked if injection detected
+│      Sanitize Input     │ ──► Blocked if injection detected
 └────────────┬────────────┘
              ▼
 ┌─────────────────────────┐
