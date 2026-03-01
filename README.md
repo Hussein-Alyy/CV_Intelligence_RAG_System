@@ -52,9 +52,9 @@ The system intelligently routes each question to the right answering strategy �
 ### Question Routing Logic
 
 ```
-User Question
-    │
-    ▼
+        User Question
+             │
+             ▼
 ┌─────────────────────────┐
 │   Sanitize Input        │ ──► Blocked if injection detected
 └────────────┬────────────┘
